@@ -1,0 +1,37 @@
+.combinationLock {
+  text-align: center;
+  position: relative;
+  border: solid 1px;
+  width: 276px;
+  margin: 30px auto;
+}
+
+.combinationLock button {
+  margin: 5px;
+  padding: 15px 25px;
+}
+
+.combinationLock input::placeholder {
+  font-size: 18px;
+}
+
+.Button-Keys {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  margin: 10px auto;
+}
+
+.Button-Keys button:last-of-type {
+  z-index: 100;
+}
+
+.Function-Keys {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 0;
+  width: 78.2%;
+  top: 303px;
+  left: 30px;
+}

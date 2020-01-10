@@ -1,0 +1,40 @@
+.calculator {
+  text-align: center;
+  position: relative;
+  border: solid 1px;
+  width: 350px;
+  margin: 30px auto;
+}
+
+.calculator button {
+  margin: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.Keys {
+  justify-content: center;
+}
+
+.Number-Keys {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row-reverse;
+  margin: 10px 0;
+  width: 61%;
+}
+
+.Func-Keys {
+  display: flex;
+  flex-flow: wrap;
+  margin: 10px 0;
+  width: 20%;
+}
+
+.Number-Keys button:nth-child(13) {
+  width: 130px;
+}
+
+.Number-Keys button:first-child {
+  background-color: crimson;
+}
